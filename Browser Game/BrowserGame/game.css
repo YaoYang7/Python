@@ -1,0 +1,46 @@
+canvas {
+    background-color: rgb(23, 128, 40);
+    background-image: url(background.jpg);
+    background-position: center;
+    display: block;
+    margin: 1em auto;
+    border: 2px solid black;
+}
+
+#outcome {
+    color: red;
+    text-align: center;
+    font-size: 3em;
+    text-decoration: underline;
+}
+
+#homepage {
+    background-image: url(background.jpg);
+    background-position: center;
+    font-size: 2em;
+    padding-bottom: 2em;
+}
+
+.button {
+    display: block;
+    border: 3px solid black;
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+    font-size: 2em;
+    border-radius: 5%;
+}
+
+.button a {
+    text-decoration: none;
+}
+
+#homepage h1, h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+#homepage p {
+    text-align: center;
+}
+

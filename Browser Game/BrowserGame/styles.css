@@ -1,0 +1,8 @@
+#homepage {
+    background-color: rgb(23, 128, 40);
+    background-image: url(background.jpg);
+    background-position: center;
+    display: block;
+    margin: 1em auto;
+    border: 2px solid black;
+}
