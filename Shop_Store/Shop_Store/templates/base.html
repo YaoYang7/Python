@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+    <html lang="en">
+
+        <head>
+            <meta charset="utf-8"/>
+            <title>The Fish</title>
+            <link href="{{url_for('static', filename='styles.css')}}" rel="stylesheet" />
+        </head>
+
+        <body>
+
+            <main id="home">
+                {% block main_content %}
+                {% endblock %}
+            </main>
+
+
+            <footer>
+                &copy; Web Dev CA1
+            </footer>
+        </body>
+        
+    </html>
